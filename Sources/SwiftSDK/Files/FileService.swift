@@ -177,7 +177,7 @@ import Foundation
     }
     
     func filesListing(path: String, pattern: String, recursive: Bool, pageSize: Int?, offset: Int?, responseHandler: (([BackendlessFileInfo]) -> Void)!, errorHandler: ((Fault) -> Void)!) {
-        var restMethod = "files/\(path)?pattern=\(pattern)"
+        var restMethod = "files\(path)?pattern=\(pattern)"
         if recursive {
             restMethod += "&sub=true"
         }
