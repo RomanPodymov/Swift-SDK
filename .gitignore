@@ -1,1 +1,3 @@
 .swiftpm/
+SwiftSDK.xcworkspace/xcuserdata/*
+Sources/.DS_Store
